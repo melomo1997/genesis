@@ -1,0 +1,43 @@
+.container{
+    width: 1109px;
+    height: 23px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    &__logo{
+        width: 90.132px;
+        height: 19.344px;
+        fill: #111;
+        margin-top: 61px;
+        margin-left: 126px;
+    
+    }
+
+    &__nav{
+        color: #111;
+        font-family: Mulish;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.346px;   
+    }
+
+    &__ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__li{
+        list-style: none;
+        margin-top: 61px;
+        margin-left: 557px;
+    }
+
+    &__li2{
+        list-style: none;
+        margin-top: 61px;
+        margin-left: 29px;
+    }
+}
