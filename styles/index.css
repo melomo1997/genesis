@@ -115,6 +115,7 @@
   display: -ms-flexbox;
   display: flex;
   list-style: none;
+  margin-left: 200px;
 }
 .box__right-one {
   display: -webkit-box;
@@ -134,6 +135,7 @@ ul {
   height: 2px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  margin-left: 125px;
 }
 
 .row {
@@ -141,6 +143,192 @@ ul {
   height: 823px;
   margin-left: 125px;
   margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.row__first-ttl {
+  color: #111;
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 48px;
+  margin-left: 1px;
+}
+.row__mid-r {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 48px;
+  margin-left: 353px;
+}
+.row__mid-r2 {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 167px;
+  margin-left: 353px;
+}
+.row__one {
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 160px;
+  margin-top: 48px;
+}
+.row__two {
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 160px;
+  margin-top: 150px;
+}
+.row__under-txt {
+  width: 190px;
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.6;
+  margin-left: 160px;
+  margin-top: 12px;
+}
+
+.under-line {
+  margin-top: -300px;
+  width: 1110px;
+  margin-left: 125px;
+}
+
+.second {
+  width: 1110px;
+  height: 823px;
+  margin-left: 125px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.second__first-ttl {
+  color: #111;
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 48px;
+  margin-left: 1px;
+}
+.second__mid-r {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 48px;
+  margin-left: 353px;
+}
+.second__mid-r2 {
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 167px;
+  margin-left: 353px;
+}
+.second__one {
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 160px;
+  margin-top: 48px;
+}
+.second__two {
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 160px;
+  margin-top: 150px;
+}
+.second__under-txt {
+  width: 190px;
+  color: #111;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.6;
+  margin-left: 160px;
+  margin-top: 12px;
+}
+
+.under-line2 {
+  margin-top: -300px;
+  width: 1110px;
+  margin-left: 125px;
+}
+
+.finish {
+  width: 1109px;
+  height: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.finish__last-logo {
+  width: 90px;
+  height: 19px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-top: 160px;
+  margin-left: 125px;
 }
 
 .container {
