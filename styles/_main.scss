@@ -64,7 +64,107 @@
         margin-top: 9px;
         margin-left: 190px;
         opacity: 0.6;
-        display: flex;
-        flex-direction: row;
+        
      }
+}
+
+.picbox{
+    // display: flex;
+    // flex-direction: row;
+    // // justify-content: space-evenly;
+    // align-items: flex-start;
+    // flex-wrap: wrap;
+    
+
+     &__a{
+        display: flex;
+        width: 1110px;
+        height: 1960px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        margin-left: 125px;
+        // width: 357px;
+        // height: 413px;
+        // flex-shrink: 0;
+        // margin-left: 125px;
+        // margin-top: 144px;
+    }
+
+    // &__b{
+    //     width: 356px;
+    //     height: 351px;
+    //     flex-shrink: 0;
+    //     margin-left: 20px;
+    //     margin-top: 144px;
+   
+    // }
+
+    // &__c{
+    //     width: 350px;
+    //     height: 599px;
+    //     flex-shrink: 0; 
+    //     margin-left: 27px;
+    //     margin-top: 144px;
+    //     margin-right:125px ;
+    // }
+
+    // &__d{
+    //     width: 357px;
+    //     height: 475px;
+    //     flex-shrink: 0;
+    //     margin-left: 125px;
+    //     margin-top: 20px;
+       
+    // }
+
+    // &__e{
+    //     width: 350px;
+    //     height: 413px;
+    //     flex-shrink: 0;
+    //     margin-top: -220px;
+    //     margin-left: 20px;
+    // }
+
+    // &__f{
+    //     width: 357px;
+    //     height: 413px;
+    //     flex-shrink: 0;
+    // }
+
+    // &__g{
+    //     width: 357px;
+    //     height: 475px;
+    //     flex-shrink: 0;
+    // }
+
+    // &__h{
+    //     width: 356px;
+    //     height: 537px;
+    //     flex-shrink: 0;
+    // }
+
+    // &__i{
+    //     width: 357px;
+    //     height: 537px;
+    //     flex-shrink: 0;
+    // }
+    // &__j{
+    //     width: 357px;
+    //     height: 537px;
+    //     flex-shrink: 0;
+    // }
+
+    // &__k{
+    //     width: 356px;
+    //     height: 599px;
+    //     flex-shrink: 0;
+    // }
+
+    // &__l{
+    //     width: 350px;
+    //     height: 351px;
+    //     flex-shrink: 0;
+    // }
 }
