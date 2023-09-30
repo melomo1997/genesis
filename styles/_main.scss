@@ -1,8 +1,70 @@
-$main-txt-color:black;
-main{
-
-    ul{
-    list-style: none;
+.top{
+    display: flex;
+    flex-direction: row;
+    width: 1109px;
 }
 
+.ttl{
+    width: 1109px;
+   
+
+&__second-title{
+    color: #4A4FF2;
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.423px;
+    margin-top: 100px;
+    margin-left: 125px;
+}
+
+ &__p-first{
+    color: #111;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+    width: 635px;
+    height: 191px;
+    margin-left: 125px;
+    margin-top: 32px;
+ }
+ &__blue{
+    color: #4A4FF2;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+ }
+}
+
+.right{
+
+    &__line{
+        width: 30px;
+        height: 2px;
+        opacity: 0.5;
+        background: #111;
+        margin-left: 190px;
+        margin-top: 290px;
+        display: flex;
+     }
+
+     &__blur{
+        color: #111;
+        font-family: Mulish;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 9px;
+        margin-left: 190px;
+        opacity: 0.6;
+        display: flex;
+        flex-direction: row;
+     }
 }
