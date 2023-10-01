@@ -1,12 +1,10 @@
 .top{
     display: flex;
     flex-direction: row;
-    width: 1109px;
+
 }
 
-.ttl{
-    width: 1109px;
-   
+.ttl{  
 
 &__second-title{
     color: #4A4FF2;
@@ -169,11 +167,14 @@
     // }
 }
 
+
+
+
+// BOX 1
 .box{
-    width: 1079px;
-    height: 106px;
+
     display: flex;
-    // flex-direction: row;
+
   
 
     &__p-second{
@@ -212,7 +213,7 @@ ul{
     opacity: 0.6;
 }
 .underline{
-    margin-top: 201px;
+    margin-top: 101px;
     width: 1110px;
     height: 2px;
     flex-shrink: 0;
@@ -220,9 +221,11 @@ ul{
     }
 
 
+
+
+    // BOX2
 .row{
     width: 1110px;
-    height: 823px;
     margin-left: 125px;
     margin-top: 50px;
     display: flex;
@@ -298,20 +301,22 @@ ul{
 }
 }
 .under-line{
-    margin-top: -300px;
+    margin-top: 32px;
     width: 1110px;
     margin-left: 125px;
    
     }
 
+
+
+    // SECOND
     .second{
         width: 1110px;
-    height: 823px;
-    margin-left: 125px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+        margin-left: 125px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
 
     &__first-ttl{
         color: #111;
@@ -382,26 +387,12 @@ ul{
 }
     }
     .under-line2{
-        margin-top: -300px;
+        margin-top: 31px;
         width: 1110px;
         margin-left: 125px;
        
         }
 
-        .finish{
-            width: 1109px;
-            height: 23px;
-            display: flex;
-            justify-content: space-between;
-            flex-direction: row;
-        
-            &__last-logo{
-                width: 90px;
-                height: 19px;
-                flex-shrink: 0;
-                margin-top: 160px;
-                margin-left: 125px;
-            }
-        }
 
+   
 
