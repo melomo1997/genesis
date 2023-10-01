@@ -40,3 +40,40 @@
         margin-left: 59px;
     }
 }
+
+
+// DETAILS
+// TOP LOGO
+ 
+.top{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1109px;
+    height: 23px;
+    flex-shrink: 0;
+
+    &__logo{
+        margin-top:61px ;
+        margin-left: 126px;
+    }
+
+    &__ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: 857px;
+        margin-top: 61px;
+
+        color: #111111;
+        font-family: Mulish;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.346px;
+    }
+
+    &__li2{
+        margin-left: 29px;
+    }
+}

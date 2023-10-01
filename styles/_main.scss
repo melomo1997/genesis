@@ -1,6 +1,7 @@
 .top{
     display: flex;
     flex-direction: row;
+  
 
 }
 
@@ -25,7 +26,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 60px; /* 150% */
-    width: 635px;
+    width: 535px;
     height: 191px;
     margin-left: 125px;
     margin-top: 32px;
@@ -83,6 +84,7 @@
         align-items: center;
         flex-shrink: 0;
         margin-left: 125px;
+        margin-top: 575px;
         // width: 357px;
         // height: 413px;
         // flex-shrink: 0;
