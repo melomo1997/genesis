@@ -1,54 +1,54 @@
      // FINISH
-     .finish{
+.finish{
 
-        width: 1109px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-    
-        &__logo-last{
-            width: 90.132px;
-            height: 19.344px;
-            fill: #111;
-            margin-top: 116px;
-            margin-left: 126px;
-        }
-    
-        &__nav{
-            color: #111;
-            font-family: Mulish;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            letter-spacing: -0.346px; 
-            margin-top: 10px;  
-        }
-    
-        &__ul{
-            display: flex;
-            flex-direction: row;
-            margin-left: 600px;
-        }
-        &__li1{
-            list-style: none;
-            
-         
-        }
-    
-        &__li2{
-            list-style: none;
-            margin-left: 30px;
-            margin-right: 90px;
-        }
+width: 1109px;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
 
-        &__social{
-            margin-top: 118px;
-            // when i giv margin my logo get smaller!!
-          
-          
-        }
+&__logo-last{
+    width: 90.132px;
+    height: 19.344px;
+    fill: #111;
+    margin-top: 116px;
+    margin-left: 126px;
+}
+
+&__nav{
+    color: #111;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.346px; 
+    margin-top: 10px;  
+}
+
+&__ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+}
+&__li1{
+    list-style: none;
     
+    
+}
+
+&__li2{
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 90px;
+}
+
+&__social{
+    margin-top: 118px;
+    // when i giv margin my logo get smaller!!
+    
+    
+}
+
       
        
     }
