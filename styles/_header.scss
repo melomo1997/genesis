@@ -1,16 +1,16 @@
 .container{
-    width: 1109px;
+    width: 100%;
     height: 23px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 
     &__logo{
-        width: 90.132px;
+        width:100%;
         height: 19.344px;
         fill: #111;
         margin-top: 61px;
-        margin-left: 126px;
+        margin-left:50px;
     }
 
     &__nav{
@@ -30,14 +30,13 @@
 
     &__li{
         list-style: none;
-        margin-left: 857px;
         margin-top: -40px;
     }
 
     &__li2{
         list-style: none;
         margin-top: -40px;
-        margin-left: 59px;
+        
     }
 }
 
@@ -49,20 +48,20 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 1109px;
+    width: 100%;
     height: 23px;
     flex-shrink: 0;
 
-    &__logo{
-        margin-top:61px ;
-        margin-left: 126px;
-    }
+    // &__logo{
+    //     margin-top:61px ;
+    //     margin-left: 126px;
+    // }
 
     &__ul{
         display: flex;
         flex-direction: row;
-        margin-left: 857px;
-        margin-top: 61px;
+        // margin-left: 857px;
+        // margin-top: 61px;
 
         color: #111111;
         font-family: Mulish;

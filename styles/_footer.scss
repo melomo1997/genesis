@@ -1,36 +1,28 @@
      // FINISH
-.finish{
+.container{
 
-width: 1109px;
+width: 100%;
 display: flex;
 justify-content: space-between;
 flex-direction: row;
 
-&__logo-last{
+&__logo{
     width: 90.132px;
     height: 19.344px;
     fill: #111;
-    margin-top: 116px;
-    margin-left: 126px;
+    // margin-top: 116px;
+    // margin-left: 126px;
 }
 
 &__nav{
-    color: #111;
-    font-family: Mulish;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -0.346px; 
-    margin-top: 10px;  
+display: flex;
 }
 
 &__ul{
     display: flex;
     flex-direction: row;
-    margin-left: 600px;
 }
-&__li1{
+&__li{
     list-style: none;
     
     
@@ -42,13 +34,19 @@ flex-direction: row;
     margin-right: 90px;
 }
 
-&__social{
-    margin-top: 118px;
-    // when i giv margin my logo get smaller!!
+
+&__icon{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     
-    
+    margin-top: 60px;
 }
 
       
        
     }
+a{
+    text-decoration: none;
+    color: #111;
+}
