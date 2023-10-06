@@ -11,6 +11,11 @@
         fill: #111;
         margin-top: 61px;
         margin-left:50px;
+        &:hover{
+            color:palevioletred;
+            font-size: 10px;
+            
+        }
     }
 
     &__nav{
@@ -31,11 +36,27 @@
     &__li{
         list-style: none;
         margin-top: -40px;
+        color: #111;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.346px;
+        &:hover{
+            color:palevioletred;
+            font-size: 10px;
+            
+        }
     }
 
     &__li2{
         list-style: none;
         margin-top: -40px;
+        &:hover{
+            color:palevioletred;
+            font-size: 10px;
+            
+        }
         
     }
 }

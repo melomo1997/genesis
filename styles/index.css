@@ -2352,6 +2352,10 @@ button:hover {
   margin-top: 61px;
   margin-left: 50px;
 }
+.container__logo:hover {
+  color: palevioletred;
+  font-size: 10px;
+}
 .container__nav {
   color: #000000;
   font-family: Mulish;
@@ -2373,10 +2377,24 @@ button:hover {
 .container__li {
   list-style: none;
   margin-top: -40px;
+  color: #111;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.346px;
+}
+.container__li:hover {
+  color: palevioletred;
+  font-size: 10px;
 }
 .container__li2 {
   list-style: none;
   margin-top: -40px;
+}
+.container__li2:hover {
+  color: palevioletred;
+  font-size: 10px;
 }
 
 .top {
