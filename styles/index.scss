@@ -2,7 +2,8 @@
 @import 'header';
 body{
     width: 100%;
-    max-width: 1360px;
+   display: flex;
+   flex-direction: column;
     height: 100vh;
     padding: 0px;
     margin-right: 0px;
