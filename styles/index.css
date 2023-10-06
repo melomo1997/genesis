@@ -30,6 +30,7 @@
   min-height: 191px;
   margin-left: 50px;
   margin-top: 32px;
+  min-height: 191px;
 }
 .ttl__blue {
   color: #4A4FF2;
@@ -2428,6 +2429,8 @@ body {
   height: 100vh;
   padding: 0px;
   margin-right: 0px;
+  width: 1360px;
+  height: 3840px;
 }
 
 .container {
